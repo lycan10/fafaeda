@@ -1,0 +1,319 @@
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 9rem ;
+}
+.gallery-title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.gallery-title h3{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: #75C2F6;
+    margin-bottom: 1rem;
+    
+}
+.gallery-title h1{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 700px;
+}
+
+.gallery-image-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    
+}
+.gallery-images{
+    position: relative;
+} 
+.page-gallery-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(117, 194, 246, 0.6);
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+.gallery-images:hover .overlay {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .text h1{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+  }
+.gallery-image1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+.gallery-image2{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.gallery-image3{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.gallery-image4{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+.gallery-image5{
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+@media screen and (max-width: 1200px){
+    .gallery-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem ;
+    }
+    .gallery-title{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .gallery-title h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 900;
+        max-width: 600px;
+    }
+    
+   
+}
+@media screen and (max-width: 800px){
+    .gallery-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem ;
+    }
+    .gallery-title{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .gallery-title h3{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 800;
+        color: #75C2F6;
+        margin-bottom: 1rem;
+        
+    }
+    .gallery-title h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 900;
+        max-width: 600px;
+    }
+    
+    .gallery-image-container{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+        grid-gap: 15px;
+        
+    }
+    .gallery-images{
+        position: relative;
+    } 
+    .page-gallery-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(117, 194, 246, 0.6);
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+    .gallery-images:hover .overlay {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+      }
+      .text h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 800;
+        color: white;
+      }
+    .gallery-image1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 9;
+    }
+    .gallery-image2{
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .gallery-image3{
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .gallery-image4{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+    .gallery-image5{
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }      
+}
+@media screen and (max-width: 500px){
+    .gallery-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem  2rem;
+    }
+    .gallery-title{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .gallery-title h3{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 800;
+        color: #75C2F6;
+        margin-bottom: 1rem;
+        
+    }
+    .gallery-title h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 23px;
+        font-weight: 900;
+        max-width: 600px;
+    }
+    
+    .gallery-image-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-images{
+        position: relative;
+    } 
+    .page-gallery-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(117, 194, 246, 0.6);
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+    .gallery-images:hover .overlay {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+      }
+      .text h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 800;
+        color: white;
+      }
+   
+}

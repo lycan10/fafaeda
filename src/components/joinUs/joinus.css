@@ -1,0 +1,160 @@
+.joinus{
+
+}
+.joinus-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.joinus-image{
+    width: 100%;
+    height: 500px;
+}
+.joinus-image img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.joinus-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.joinus-content h1{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+}
+.joinus-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #75C2F6;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+}
+.joinus-button p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 0.3rem;
+    color: white;
+}
+.joinus-opacity{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+@media screen and (max-width: 1200px) {
+    .joinus-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        padding: 0.5rem 1rem;
+        margin-top: 3rem;
+    }
+    .joinus-content h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 900;
+        max-width: 800px;
+        text-align: center;
+        color: white;
+    }
+    .joinus-image{
+        width: 100%;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .joinus-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        padding: 0.5rem 1rem;
+        margin-top: 3rem;
+    }
+    .joinus-content h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 33px;
+        font-weight: 900;
+        max-width: 600px;
+        text-align: center;
+        color: white;
+        line-height: 46px;
+    }
+    .joinus-image{
+        width: 100%;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .joinus-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        padding: 0.5rem 1rem;
+        margin-top: 3rem;
+    }
+    .joinus-content h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 23px;
+        font-weight: 900;
+        max-width: 400px;
+        text-align: center;
+        color: white;
+        line-height: 33px;
+    }
+    .joinus-image{
+        width: 100%;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .joinus-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        padding: 0.5rem 1rem;
+        margin-top: 3rem;
+    }
+    .joinus-content h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 23px;
+        font-weight: 900;
+        max-width: 280px;
+        text-align: center;
+        color: white;
+        line-height: 33px;
+    }
+    .joinus-image{
+        width: 100%;
+        height: 420px;
+    }
+}

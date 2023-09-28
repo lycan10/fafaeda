@@ -1,0 +1,754 @@
+.footer{
+    padding: 6rem 9rem 0;
+    background-color: rgb(48, 48, 43);
+}
+.footer-container{
+
+}
+.footer-content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer1{
+
+
+}
+.footer1 p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    max-width: 250px;
+    font-weight: 900;
+    line-height: 33px;
+    color: rgb(130, 129, 129);
+}
+.footer-header{
+    margin-bottom: 1.5rem;
+}
+.footer-header h1{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 23px;
+    font-weight: 1000;
+    color: white;
+}
+.footer-button{
+    margin-top: 2rem;
+
+}
+.footer-button p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 0.4rem;
+    color: white;
+}
+.footer1 ul{
+   padding: 0;
+
+}
+.footer1 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.footer1 ul li a{ 
+    text-decoration: none;
+}
+.footer1 ul li span{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    margin-top: 1rem;
+    max-width: 500px;
+    font-weight: 900;
+    line-height: 27px;
+    color: rgb(130, 129, 129);
+}
+.footer-contact-container{
+    
+}
+.footer-contact-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(130, 129, 129);
+}
+.footer-contact-content-container:first-child{
+    padding: 0 0 1rem;
+}
+.footer-contact-content-container:last-child{
+    border-bottom: 0;
+}
+.footer-contact-content-image{
+    width: 35px;
+    height: 35px;
+}
+.footer-contact-content-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer-contact-content{
+    margin-left: 1rem;
+    
+}
+.footer-contact-content h1{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 1000; 
+    color: white;
+}
+.footer-contact-content p{
+    
+}
+.footer-newsletter{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    margin-top: 1.5rem;
+}
+.footer-newsletter input{
+    height: 50px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    max-width: 500px;
+    font-weight: 900;
+    line-height: 27px;
+    color: rgb(130, 129, 129);
+
+}
+.footer-newsletter .footer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #75C2F6;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+
+}
+.footer-newsletter .footer-button p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 0.4rem;
+    color: white;
+}
+.footer-content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+}
+.footer-comapany-icon{
+    background-color: #75C2F6;
+    height: 125px;
+    width: 200px;
+}
+.footer-comapany-icon img{
+    width: 200px;
+    height: 125px;
+    object-fit: contain;
+}
+.footer-company-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 125px;
+    padding: 0 4rem;
+}
+.footer-social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-social-div{
+    background-color: #75C2F6;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-logo{
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+.footer-copyright{
+
+}
+.footer-copyright p{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18px;
+    color: rgb(130, 129, 129);
+}
+
+@media screen and (max-width: 1200px) {
+    .footer{
+        padding: 4rem 4rem 0;
+        background-color: rgb(48, 48, 43);
+    }
+    .footer-container{
+    
+    }
+    .footer-content1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .footer1 p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        max-width: 200px;
+        font-weight: 900;
+        line-height: 33px;
+        color: rgb(130, 129, 129);
+    }
+    .footer-header{
+        margin-bottom: 1.5rem;
+    }
+    .footer-header h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 23px;
+        font-weight: 1000;
+        color: white;
+    }
+    .footer-button{
+        margin-top: 2rem;
+    
+    }
+    .footer-button p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 0.4rem;
+        color: white;
+    }
+    .footer1 ul{
+       padding: 0;
+    
+    }
+    .footer1 ul li{
+        text-decoration: none;
+        list-style: none;
+        margin-bottom: 1rem;
+    }
+    .footer1 ul li a{ 
+        text-decoration: none;
+    }
+    .footer1 ul li span{
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        margin-top: 1rem;
+        max-width: 500px;
+        font-weight: 900;
+        line-height: 27px;
+        color: rgb(130, 129, 129);
+    }
+    .footer-contact-container{
+        
+    }
+    .footer-contact-content-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgb(130, 129, 129);
+    }
+    .footer-contact-content-container:first-child{
+        padding: 0 0 1rem;
+    }
+    .footer-contact-content-container:last-child{
+        border-bottom: 0;
+    }
+    .footer-contact-content-image{
+        width: 35px;
+        height: 35px;
+    }
+    .footer-contact-content-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .footer-contact-content{
+        margin-left: 1rem;
+        
+    }
+    .footer-contact-content h1{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 1000; 
+        color: white;
+    }
+    .footer-contact-content p{
+        
+    }
+    .footer-newsletter{
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 0.3rem;
+        margin-top: 1.5rem;
+    }
+    .footer-newsletter input{
+        width: 150px;
+    
+    }
+    .footer-newsletter .footer-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        width: 80px;
+        height: 40px;
+        margin: 0;
+    
+    }
+    .footer-newsletter .footer-button p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 0.4rem;
+        color: white;
+    }
+    .footer-content2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 6rem;
+    }
+    .footer-comapany-icon{
+        background-color: #75C2F6;
+        height: 105px;
+        width: 200px;
+    }
+    .footer-comapany-icon img{
+        width: 200px;
+        height: 105px;
+        object-fit: contain;
+    }
+    .footer-company-bottom-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 105px;
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer{
+        padding: 4rem 4rem 0;
+        background-color: rgb(48, 48, 43);
+    }
+    .footer-container{
+    
+    }
+    .footer-content1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer1{
+        margin-bottom: 3rem;
+    }
+    .footer1:last-child{ 
+        margin-bottom: 0rem;
+    }
+    .footer1 p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        max-width: 350px;
+    }
+    .footer-header{
+        margin-bottom: 1rem;
+    }
+    .footer-button{
+        margin-top: 2rem;
+    
+    }
+    .footer-button p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 0.4rem;
+        color: white;
+    }
+    .footer-contact-container{
+        
+    }
+    .footer-contact-content-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgb(130, 129, 129);
+    }
+    .footer-contact-content-container:first-child{
+        padding: 0 0 1rem;
+    }
+    .footer-contact-content-container:last-child{
+        border-bottom: 0;
+    }
+    .footer-contact-content-image{
+        width: 35px;
+        height: 35px;
+    }
+    .footer-contact-content-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .footer-contact-content p{
+        
+    }
+    .footer-newsletter{
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        margin-top: 1.5rem;
+    }
+    .footer-newsletter input{
+        width: 150px;
+    
+    }
+    .footer-newsletter .footer-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        width: 80px;
+        height: 40px;
+        margin: 0;
+    
+    }
+    .footer-newsletter .footer-button p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 0.4rem;
+        color: white;
+    }
+    .footer-content2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 6rem;
+    }
+    .footer-comapany-icon{
+        background-color: #75C2F6;
+        height: 105px;
+        width: 200px;
+    }
+    .footer-comapany-icon img{
+        width: 200px;
+        height: 105px;
+        object-fit: contain;
+    }
+    .footer-company-bottom-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 105px;
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer{
+        padding: 4rem 2rem 0;
+        background-color: rgb(48, 48, 43);
+    }
+    .footer-container{
+    
+    }
+    .footer-content1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer1{
+        margin-bottom: 2rem;
+    }
+    .footer1:last-child{ 
+        margin-bottom: 0rem;
+    }
+    .footer1 p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        max-width: 350px;
+    }
+    .footer-header{
+        margin-bottom: 1rem;
+    }
+    .footer-button{
+        margin-top: 2rem;
+    
+    }
+    .footer-button p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 0.4rem;
+        color: white;
+    }
+    .footer-contact-container{
+        
+    }
+    .footer-contact-content-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgb(130, 129, 129);
+    }
+    .footer-contact-content-container:first-child{
+        padding: 0 0 1rem;
+    }
+    .footer-contact-content-container:last-child{
+        border-bottom: 0;
+    }
+    .footer-contact-content-image{
+        width: 35px;
+        height: 35px;
+    }
+    .footer-contact-content-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .footer-contact-content p{
+        
+    }
+    .footer-newsletter{
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        margin-top: 1.5rem;
+        
+    }
+    .footer-newsletter input{
+        width: 150px;
+    
+    }
+    .footer-newsletter .footer-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        width: 80px;
+        height: 40px;
+        margin: 0;
+    
+    }
+    .footer-newsletter .footer-button p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 0.4rem;
+        color: white;
+    }
+    .footer-content2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .footer-comapany-icon{
+        background-color: #75C2F6;
+        height: 105px;
+        width: 150px;
+    }
+    .footer-comapany-icon img{
+        width: 150px;
+        height: 105px;
+        object-fit: contain;
+    }
+    .footer-company-bottom-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 105px;
+        padding: 0 1rem;
+    }
+    .footer-copyright p{
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 900;
+        line-height: 18px;
+        color: rgb(130, 129, 129);
+        margin-top: 0.5rem;
+    }
+    .footer-social-div{
+        background-color: #75C2F6;
+        height: 27px;
+        width: 27px;
+        border-radius: 100%;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .footer-social-logo{
+        font-size: 13px;
+        color: white;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 350px) {
+    .footer{
+        padding: 4rem 2rem 0;
+        background-color: rgb(48, 48, 43);
+    }
+    .footer-container{
+    
+    }
+    .footer-content1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer1{
+        margin-bottom: 2rem;
+    }
+    .footer1:last-child{ 
+        margin-bottom: 0rem;
+    }
+    
+    
+    .footer-newsletter .footer-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #75C2F6;
+        width: 80px;
+        height: 40px;
+        margin: 0;
+    
+    }
+    .footer-newsletter .footer-button p{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 0.4rem;
+        color: white;
+    }
+    .footer-content2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .footer-comapany-icon{
+        background-color: #75C2F6;
+        height: 90px;
+        width: 150px;
+    }
+    .footer-comapany-icon img{
+        width: 110px;
+        height: 90px;
+        object-fit: contain;
+    }
+    .footer-company-bottom-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 90px;
+        padding: 0 1rem;
+    }
+    .footer-copyright p{
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 900;
+        line-height: 18px;
+        color: rgb(130, 129, 129);
+        margin-top: 0.5rem;
+    }
+    .footer-social-div{
+        background-color: #75C2F6;
+        height: 27px;
+        width: 27px;
+        border-radius: 100%;
+        margin-right: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      
+    }
+    .footer-social-logo{
+        font-size: 15px;
+        color: white;
+        margin: 0;
+    }
+}

@@ -1,0 +1,90 @@
+.home-card{
+    padding: 0 9rem;
+    position: relative;
+    top: -15.6rem;
+    z-index: 9;
+    background-color: transparent;
+}
+
+.card-container{
+ 
+    border: 1px solid #75C2F6;
+    
+    position: relative;
+
+}
+.card-image{
+    padding: 2rem 2rem 0;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-color: white;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-image-title{
+    padding: 0.2rem 1rem;
+    background-color: #75C2F6;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+
+}
+.card-image-title p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.card-content{
+       padding: 0rem 2rem 0;
+}
+.card-content h1{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 23px;
+    font-weight: 900;
+
+    margin: 1rem 0;
+
+}
+.card-content p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.home-card-footer{
+    background-color: rgba(117, 194, 246, 0.5);
+    height: 100px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-card{
+        padding: 0 4rem;
+        position: relative;
+        top: -15.6rem;
+        z-index: 9;
+        background-color: transparent;
+    }
+    
+
+
+}
+@media screen and (max-width: 500px) {
+    .home-card{
+        padding: 0 2rem;
+        position: relative;
+        top: -15.6rem;
+        z-index: 9;
+        background-color: transparent;
+    }
+   
+} 
